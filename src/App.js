@@ -1,8 +1,13 @@
-import React , {useState} from 'react';
+import React , {useState, useEffect} from 'react';
 import Profile from './components/Profile';
 
 function App() {
   const  [count, setCount] = useState(1);
+
+  useEffect(() => {
+   
+  });
+
   return (
     <div className="container">
         <h1 className='text-center'>Usememo()</h1>
